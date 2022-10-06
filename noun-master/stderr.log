@@ -1,0 +1,1978 @@
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+internal/modules/cjs/loader.js:638
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+Traceback (most recent call last):
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 92, in get_homedir
+    return self.get_user_full_dict()[user].pw_dir
+KeyError: 'noun'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 113, in <module>
+    env_vars = get_env_vars(app_name, sys.argv[1])
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 64, in get_env_vars
+    full_app_config = get_app_full_conf(username, _app_name, interpreter)
+  File "/home/achiroct/nodevenv/noun.achievextesting.one/10/bin/set_env_vars.py", line 94, in get_app_full_conf
+    full_user_config = manager.get_user_config_data(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 235, in get_user_config_data
+    user_config = self._get_path_to_user_config(user)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clselect/baseclselect/apps_manager.py", line 318, in _get_path_to_user_config
+    user_home = self._pwd.get_homedir(username)
+  File "/opt/alt/python37/lib/python3.7/site-packages/clcommon/clpwd.py", line 94, in get_homedir
+    raise ClPwd.NoSuchUserException(user)
+clcommon.clpwd.NoSuchUserException: No such user (noun)
+SyntaxError: Unexpected number in JSON at position 18
+    at JSON.parse (<anonymous>)
+    at parse (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:231:16)
+    at done (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+SyntaxError: Unexpected token / in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/types/json.js:160:10)
+    at parse (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/types/json.js:83:15)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:231:16)
+    at done (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+/home/achiroct/noun.achievextesting.one/server.js:61
+console.log(path);
+            ^
+
+ReferenceError: path is not defined
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/server.js:61:13)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at startApplication (/usr/local/lsws/fcgi-bin/lsnode.js:48:15)
+    at Object.<anonymous> (/usr/local/lsws/fcgi-bin/lsnode.js:16:1)
+(node:3926039) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:3926039) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:3926039) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3926039) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:3926039) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:3950257) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:3950257) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:3950257) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3950257) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:3950257) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:3950257) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:3950257) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:3950257) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:3950257) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:147205) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:147205) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:147205) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:147205) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:147205) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:147205) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:147205) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:147205) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:147205) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:147205) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:147205) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:147205) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:147205) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+(node:147205) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:147205) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+(node:147205) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:147205) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
+(node:147205) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:147205) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 9)
+(node:740659) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:740659) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:740659) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:740659) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:740659) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:740659) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:740659) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:740659) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:740659) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:740659) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:740659) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:740659) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:740659) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at parse (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:231:16)
+    at done (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:1308712) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 6)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 7)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 8)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 9)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 10)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 11)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 12)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 13)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 14)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 15)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 16)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 17)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 18)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 19)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 20)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 21)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 22)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 23)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 24)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 25)
+(node:1308712) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'length' of undefined
+    at exports.userLogin (/home/achiroct/noun.achievextesting.one/app/user/controller.js:12:24)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:1308712) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 26)
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+/home/achiroct/noun.achievextesting.one/app/user/controller.js:100
+                jwt.sign({ result[0] }, jwtKey, { expiresIn: "2h" }, (err, token) => {
+                                 ^
+
+SyntaxError: Unexpected token [
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/app/user/routes.js:7:20)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+/home/achiroct/noun.achievextesting.one/app/user/controller.js:100
+                jwt.sign({ result[0] }, jwtKey, { expiresIn: "2h" }, (err, token) => {
+                                 ^
+
+SyntaxError: Unexpected token [
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/app/user/routes.js:7:20)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+/home/achiroct/noun.achievextesting.one/app/user/controller.js:100
+                jwt.sign({ result[0] }, jwtKey, { expiresIn: "2h" }, (err, token) => {
+                                 ^
+
+SyntaxError: Unexpected token [
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/app/user/routes.js:7:20)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+/home/achiroct/noun.achievextesting.one/app/user/controller.js:100
+                jwt.sign({ result[0] }, jwtKey, { expiresIn: "2h" }, (err, token) => {
+                                 ^
+
+SyntaxError: Unexpected token [
+    at Module._compile (internal/modules/cjs/loader.js:723:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at Object.<anonymous> (/home/achiroct/noun.achievextesting.one/app/user/routes.js:7:20)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+(node:3995241) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at exports.bookBySlot (/home/achiroct/noun.achievextesting.one/app/user/controller.js:407:36)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/user/routes.js:32:17)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyToken (/home/achiroct/noun.achievextesting.one/app/user/routes.js:27:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:3995241) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:3995241) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3995241) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at exports.bookBySlot (/home/achiroct/noun.achievextesting.one/app/user/controller.js:407:36)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/user/routes.js:32:17)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyToken (/home/achiroct/noun.achievextesting.one/app/user/routes.js:27:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:3995241) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:4107172) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at exports.bookBySlot (/home/achiroct/noun.achievextesting.one/app/user/controller.js:407:36)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/user/routes.js:32:17)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyToken (/home/achiroct/noun.achievextesting.one/app/user/routes.js:27:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:4107172) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:4107172) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:4107172) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at exports.bookBySlot (/home/achiroct/noun.achievextesting.one/app/user/controller.js:407:36)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/user/routes.js:32:17)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyToken (/home/achiroct/noun.achievextesting.one/app/user/routes.js:27:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:4107172) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:4182026) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at Query.DB.query (/home/achiroct/noun.achievextesting.one/app/user/controller.js:169:45)
+    at Query.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+(node:4182026) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:4182026) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:4182710) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at Query.DB.query (/home/achiroct/noun.achievextesting.one/app/user/controller.js:169:45)
+    at Query.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+(node:4182710) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:4182710) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:4182710) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at Query.DB.query (/home/achiroct/noun.achievextesting.one/app/user/controller.js:169:45)
+    at Query.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+(node:4182710) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:48505) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at Query.DB.query (/home/achiroct/noun.achievextesting.one/app/user/controller.js:170:45)
+    at Query.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+(node:48505) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:48505) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:48731) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at Query.DB.query (/home/achiroct/noun.achievextesting.one/app/user/controller.js:170:45)
+    at Query.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+(node:48731) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:48731) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:53568) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at Query.DB.query (/home/achiroct/noun.achievextesting.one/app/user/controller.js:170:45)
+    at Query.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+(node:53568) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:53568) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+SyntaxError: Unexpected number in JSON at position 13
+    at JSON.parse (<anonymous>)
+    at parse (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:231:16)
+    at done (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+(node:53568) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at Query.DB.query (/home/achiroct/noun.achievextesting.one/app/user/controller.js:170:45)
+    at Query.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+(node:53568) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:101323) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at Query.DB.query (/home/achiroct/noun.achievextesting.one/app/user/controller.js:101:35)
+    at Query.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+(node:101323) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:101323) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:101323) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at Query.DB.query (/home/achiroct/noun.achievextesting.one/app/user/controller.js:101:35)
+    at Query.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+(node:101323) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:132490) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at Query.DB.query (/home/achiroct/noun.achievextesting.one/app/user/controller.js:101:42)
+    at Query.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+(node:132490) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:132490) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:132752) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'id' of undefined
+    at Query.DB.query (/home/achiroct/noun.achievextesting.one/app/user/controller.js:101:42)
+    at Query.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+(node:132752) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:132752) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:2813919) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:2813919) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:2813919) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:2813919) UnhandledPromiseRejectionWarning: TypeError: Cannot read property '0' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:38)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:28:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:19:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:2813919) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (events.js:198:13)
+    at HeaderParser.Multipart.HeaderParser [as cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:219:14)
+    at SBMH.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+    at doWrite (_stream_writable.js:415:12)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (events.js:198:13)
+    at HeaderParser.Multipart.HeaderParser [as cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:219:14)
+    at SBMH.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+    at doWrite (_stream_writable.js:415:12)
+(node:3442988) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'portImage' of undefined
+    at exports.addPort (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:139:31)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:3442988) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:3442988) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+SyntaxError: Unexpected token - in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/types/json.js:160:10)
+    at parse (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/types/json.js:83:15)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:231:16)
+    at done (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+SyntaxError: Unexpected token - in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/types/json.js:160:10)
+    at parse (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/types/json.js:83:15)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:231:16)
+    at done (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+SyntaxError: Unexpected token - in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/types/json.js:160:10)
+    at parse (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/types/json.js:83:15)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:188:21)
+    at invokeCallback (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:231:16)
+    at done (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (events.js:198:13)
+    at HeaderParser.Multipart.HeaderParser [as cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:219:14)
+    at SBMH.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+    at doWrite (_stream_writable.js:415:12)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (events.js:198:13)
+    at HeaderParser.Multipart.HeaderParser [as cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:219:14)
+    at SBMH.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+    at doWrite (_stream_writable.js:415:12)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (events.js:198:13)
+    at HeaderParser.Multipart.HeaderParser [as cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:219:14)
+    at SBMH.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+    at doWrite (_stream_writable.js:415:12)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (events.js:198:13)
+    at HeaderParser.Multipart.HeaderParser [as cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:219:14)
+    at SBMH.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+    at doWrite (_stream_writable.js:415:12)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (events.js:198:13)
+    at HeaderParser.Multipart.HeaderParser [as cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:219:14)
+    at SBMH.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+    at doWrite (_stream_writable.js:415:12)
+(node:3624266) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'portImage' of undefined
+    at exports.addPort (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:139:31)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/index.js:47:12)
+(node:3624266) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:3624266) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3831583) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'carImage' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:30)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:29:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:20:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:3831583) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:3831583) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3831583) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'carImage' of undefined
+    at exports.addCar (/home/achiroct/noun.achievextesting.one/app/admin/controller.js:70:30)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+    at jwt.verify (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:29:21)
+    at /home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.module.exports [as verify] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/jsonwebtoken/verify.js:94:10)
+    at verifyAdminToken (/home/achiroct/noun.achievextesting.one/app/admin/routes.js:20:13)
+    at Layer.handle [as handle_request] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/express/lib/router/route.js:144:13)
+(node:3831583) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (events.js:198:13)
+    at HeaderParser.Multipart.HeaderParser [as cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+    at doWrite (_stream_writable.js:415:12)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (events.js:198:13)
+    at HeaderParser.Multipart.HeaderParser [as cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+    at doWrite (_stream_writable.js:415:12)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (events.js:198:13)
+    at HeaderParser.Multipart.HeaderParser [as cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+    at doWrite (_stream_writable.js:415:12)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (events.js:198:13)
+    at HeaderParser.Multipart.HeaderParser [as cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+    at doWrite (_stream_writable.js:415:12)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (events.js:198:13)
+    at HeaderParser.Multipart.HeaderParser [as cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+    at doWrite (_stream_writable.js:415:12)
+MulterError: Unexpected field
+    at wrappedFileFilter (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/index.js:40:19)
+    at Multipart.<anonymous> (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/multer/lib/make-middleware.js:107:7)
+    at Multipart.emit (events.js:198:13)
+    at HeaderParser.Multipart.HeaderParser [as cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:358:14)
+    at HeaderParser.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:394:37)
+    at feed (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:248:10)
+    at SBMH.push (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/streamsearch/lib/sbmh.js:104:16)
+    at Multipart._write (/home/achiroct/nodevenv/noun.achievextesting.one/10/lib/node_modules/busboy/lib/types/multipart.js:567:19)
+    at doWrite (_stream_writable.js:415:12)
